@@ -1,0 +1,84 @@
+
+.contenedor{
+    padding: 60 px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cards{
+    background-color: rgb(84, 190, 190);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 300px;
+    height: 500px;
+    align-items: top;
+    justify-content: end;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    object-fit: cover;
+    border: 5px solid #cabbbb;
+    border-radius: 100%;
+}
+
+
+.cards .card > .contenido-texto-card{
+    width: 80%;
+    color: #000000;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+/* Our team */
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 30%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+font-weight: 300;
+text-align: justify;
+}
+
+.contenido-texto-card{
+   text-align: left
+}
